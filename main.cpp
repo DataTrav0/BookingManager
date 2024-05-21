@@ -3,11 +3,13 @@
 #include <ctime>
 #include <fstream>
 #include <vector>
+
 #ifdef _WIN32
 #define CLEAR_CONSOLE "cls"
 #else
 #define CLEAR_CONSOLE "printf \"\\033c\""
 #endif
+
 
 using namespace std;
 
@@ -353,10 +355,9 @@ int main()
         default:
             cout << "\033[1;31mInvalid choice\033[0m" << endl;
         }
-
         cout << endl;
     }
-    while (choice != 6);
+    while (choice != 7);
 
     return 0;
 }
