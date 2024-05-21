@@ -10,6 +10,6 @@
 <p>This program manages bookings. This application can be useful to hotels and airlines for managing guests/clients. </p>
 
 ## Build Requirements
-- Microsoft Visual Studio 2017
-- WXWidgets (For GUI)
-- MongoDB
+- Codeblocks
+- C++ compiler (GCC)
+- SQLite3
